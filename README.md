@@ -1,19 +1,29 @@
-# Development Architecture
-Quickly set up a Vue frontend, NodeJS backend, MongoDB database connection, and HTTP/HTTPS deployment environment.
-Which includes some commonly used libraries.
+# Youtube Downloader Platform
 
+This is a platform developed using VueJS and NodeJS, 
+and the 'yt-dlp-wrap' package is used as an auxiliary tool for development.
+
+## Clone This Repository
+```
+git clone https://github.com/SCLemon/youtube_downloader.git
+```
 ## Project setup
 ```
-npm install
+For Frontend:
+cd youtube_downloader
+sudo npm i
+
+For Backend:
+cd backend
+sudo npm i
 ```
 
-### Compiles and hot-reloads for development
+### Start The Platform
 ```
-npm run serve
-```
+For Frontend:
+sudo npm run serve
 
-### Compiles and minifies for production
-```
-npm run build
+For Backend
+sudo node index.js
 ```
 
